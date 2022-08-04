@@ -1,0 +1,21 @@
+.myButton{
+    width:250px;
+    height:55px;
+    border:solid 3px black;
+    font-size:larger;
+    text-transform: uppercase;
+    background-color: hotpink;
+
+}
+
+.myField{
+    width: 245px;
+    height:47px;
+    border:solid 3px black;
+}
+.giveMyButtonSpace{
+    display:flex;
+    justify-content: space-evenly;
+    width:22%;
+    
+}
