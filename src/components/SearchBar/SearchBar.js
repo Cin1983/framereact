@@ -24,6 +24,12 @@ function SearchBar() {
   //   })
   // );
 
+  // document.write(
+  //   products.filter(product =>{
+  //     return product.includes("wash");
+  //   })
+  // )
+
   const shouldDisplayButton = searchValue.length > 0;
 
   console.log(shouldDisplayButton);
@@ -49,6 +55,10 @@ function SearchBar() {
         {products.map((product) => {
           return <li key={product}>{product}</li>;
         })}
+
+        {/* {products.filter((product) => {
+          return product.includes("mouth");
+        })} */}
       </ul>
     </div>
   );
